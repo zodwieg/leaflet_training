@@ -17,6 +17,7 @@ const circle = L.circle([51.508, -0.11], {
     fillOpacity: 0.5,
     radius: 500
 }).addTo(map);
+circle.bindPopup("I am a frigging circle.");
 
 const polygon = L.polygon([
     [51.509, -0.08],
